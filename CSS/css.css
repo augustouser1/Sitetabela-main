@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+:root{
+--primary: rgb(2, 141, 102);
+--black: black;
+--white: white;
+   
+}
+
+
+.header{
+  background-image: url(https://thumbs.dreamstime.com/b/fundo-do-banner-de-dados-da-tecnologia-computador-ciclo-industrial-faixa-muitos-usos-para-p%C3%A1ginas-publicidade-pinturas-impress%C3%A3o-193343047.jpg);
+  padding:2.5rem;
+}
+
+header h1{
+  color:white;
+  font-size:40px;
+  text-align:center;
+  text-shadow: 3px 2px black;
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  background-color: var(--primary);
+  padding: 0.1rem;
+  text-align: center;
+}
+
+ header nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+ header nav ul li {
+  padding-right: 5rem;
+  padding-left:5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-size:35px;
+}
+
+.one p {
+  margin-left: 2rem;
+  margin-bottom:1rem;
+  color:black;
+  font-size:25px;
+}
+.one h3 {
+  padding:1rem;
+  margin-left:1rem;
+  font-size:35px;
+}
+
+.two ol li{
+  margin-left:3.8rem;
+  margin-bottom:2rem;
+  margin-top:1rem;
+  font-size:25px;
+  color:black;
+}
+
+.two h3{
+  padding:0.6rem;
+  margin-left:1.5rem;
+  font-size:35px;
+}
+.three h3{
+  margin-left:2rem;
+  font-size:35px;
+}
+.three ul li{
+  margin-top:1rem;
+  margin-left:4.2rem;
+  font-size:25px;
+  height:35vh;
+}
+  .cursinho p{
+   text-align:center;
+   font-size:16px;
+   margin-top:1rem;
+  }
+table {
+  margin: auto;
+  margin-bottom: 3rem;
+  table-layout: fixed;
+  text-align: center;
+}
+table tr th, table tr td {
+  border: 0.1rem solid black;
+  padding: 1rem;
+}
+table{
+  border-collapse: collapse;
+  
+}
+
+h5{
+  height:35vh;
+}
+
+
+section{
+  height:30vh;
+}
+
+section h3{
+    margin-top:3rem;
+}
+section h4{
+    margin-top:1rem;
+    font-size:35px;
+}
+section p{
+    font-size:25px;
+}
+
+
+footer {
+  background-color: var(--primary);
+  height: 3rem;
+  position: flex;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  color: var(--white);
+  padding: 0.5rem;
+  font-size:1.5rem;
+}
+
+h2{
+  height:65vh;
+}
+
+.button1{
+  border-radius:50%;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  background-color: var(--primary);
+}
